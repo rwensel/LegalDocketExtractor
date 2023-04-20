@@ -1,12 +1,11 @@
-import datetime
-import random
 import time
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from pdfExtract import capture_and_extract_images, iterate_and_extract, download_wait
+
+from pdfExtract import download_wait
 
 pdf_dir = "pdf_files"
 path_to_images = 'pages/'
@@ -145,4 +144,3 @@ for row in rows:
 
 # iterate_and_extract(pdf_dir)
 # capture_and_extract_images(path_to_images)
-

@@ -1,8 +1,8 @@
+import os
 import time
 
-from pdf2image import convert_from_path
-import os
 from PIL import Image
+from pdf2image import convert_from_path
 from pytesseract import pytesseract
 
 
@@ -91,4 +91,3 @@ def capture_and_extract_images(images):
             text = pytesseract.image_to_string(img)
 
             print(text)
-
