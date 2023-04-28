@@ -97,8 +97,8 @@ for row in rows:
             if "Complaint" in d_row.text:
 
                 # Xpath to Document View
-                d_xpath = "//*[@id='app']/div[3]/main/div/div/div/div[3]/div/div[2]/div/div[1]/div[1]/table/tbody/tr[{}]/td[5]/button/div".format(
-                    d_rc)
+                d_xpath = "//*[@id='app']/div[3]/main/div/div/div/div[3]/div/div[2]/div/div[1]/div[1]/table/tbody/tr[" \
+                          "{}]/td[5]/button/div".format(d_rc)
 
                 # Open Document View
                 WebDriverWait(driver, 10).until(EC.element_to_be_clickable(
