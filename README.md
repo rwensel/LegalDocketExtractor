@@ -1,5 +1,5 @@
 # LegalDocketExtractor
-Automation for downloading docket PDF information from Delco Court systems
+Automation for downloading docket PDF information from Delco Court systems. This was a request for someone who needed a tool to pull all of the foreclosure documents.
 
 Extracting Mortgage Foreclosure Complaints in Delaware County using Selenium
 This code extracts Mortgage Foreclosure Complaints in Delaware County using Selenium. The script navigates to the Delaware County Public Access website, searches for Mortgage Foreclosure cases, selects and downloads the initial complaint document, and extracts information from the complaint.
