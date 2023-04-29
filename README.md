@@ -18,3 +18,5 @@ Set the path_to_images variable to the directory in which to save extracted imag
 Set the pattern variable to match the information to extract from the complaint.
 Set the download_folder variable to the path of the folder to download files.
 Run the script to download and extract information from the complaint.
+
+Outside of the requirements, you also need to install tessarct for using OCR to read the PDF documents. PDF files are initially encrypted which prevents direct OCR. To bypass this issue I created a module that will use poppler to convert each PDF page into an image file. The tesseract OCR will read the image files which you can then search, or export text from the documents.
